@@ -1,0 +1,150 @@
+[{
+  "_id": "venta001",
+  "clienteId": "cliente001",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-101",
+      "cantidad": 1
+    },
+    {
+      "_id": "PJ-102",
+      "cantidad": 1
+    }
+  ],
+  "total": 270,
+  "fecha": "2024-10-01",
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": "venta002",
+  "clienteId": "cliente002",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-103",
+      "cantidad": 1
+    }
+  ],
+  "total": 450,
+  "fecha": "2024-10-05",
+  "metodoPago": "Efectivo"
+},
+{
+  "_id": "venta003",
+  "clienteId": "cliente003",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-104",
+      "cantidad": 2
+    },
+    {
+      "_id": "PJ-105",
+      "cantidad": 1
+    }
+  ],
+  "total": 260,
+  "fecha": "2024-10-10",
+  "metodoPago": "Transferencia bancaria"
+},
+{
+  "_id": "venta004",
+  "clienteId": "cliente001",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-103",
+      "cantidad": 1
+    }
+  ],
+  "total": 450,
+  "fecha": "2024-10-15",
+  "metodoPago": "Tarjeta de débito"
+},
+{
+  "_id": "venta005",
+  "clienteId": "cliente004",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-101",
+      "cantidad": 1
+    },
+    {
+      "_id": "PJ-104",
+      "cantidad": 1
+    }
+  ],
+  "total": 230,
+  "fecha": "2024-10-20",
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": "venta006",
+  "clienteId": "cliente005",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-102",
+      "cantidad": 1
+    },
+    {
+      "_id": "PJ-105",
+      "cantidad": 1
+    }
+  ],
+  "total": 220,
+  "fecha": "2024-10-25",
+  "metodoPago": "Efectivo"
+},
+{
+  "_id": "venta007",
+  "clienteId": "cliente003",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-103",
+      "cantidad": 1
+    }
+  ],
+  "total": 450,
+  "fecha": "2024-11-01",
+  "metodoPago": "Transferencia bancaria"
+},
+{
+  "_id": "venta008",
+  "clienteId": "cliente002",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-105",
+      "cantidad": 2
+    }
+  ],
+  "total": 200,
+  "fecha": "2024-11-05",
+  "metodoPago": "Tarjeta de débito"
+},
+{
+  "_id": "venta009",
+  "clienteId": "cliente004",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-104",
+      "cantidad": 3
+    }
+  ],
+  "total": 240,
+  "fecha": "2024-11-08",
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": "venta010",
+  "clienteId": "cliente005",
+  "piezasCompradas": [
+    {
+      "_id": "PJ-101",
+      "cantidad": 1
+    },
+    {
+      "_id": "PJ-105",
+      "cantidad": 1
+    }
+  ],
+  "total": 250,
+  "fecha": "2024-11-10",
+  "metodoPago": "Efectivo"
+}]

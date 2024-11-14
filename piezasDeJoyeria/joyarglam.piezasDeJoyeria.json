@@ -1,0 +1,67 @@
+[{
+  "_id": "PJ-101",
+  "nombre": "Anillo de Oro",
+  "categoria": "Anillo",
+  "materiales": [
+    "Oro 18k"
+  ],
+  "peso": "5g",
+  "precio": 150,
+  "disponibilidad": "Disponible",
+  "coleccion": "Clásica",
+  "joyeroId": "joyero001"
+},
+{
+  "_id": "PJ-102",
+  "nombre": "Collar de Plata",
+  "categoria": "Collar",
+  "materiales": [
+    "Plata 925"
+  ],
+  "peso": "15g",
+  "precio": 120,
+  "disponibilidad": "Agotado",
+  "coleccion": "Moderna",
+  "joyeroId": "joyero002"
+},
+{
+  "_id": "PJ-103",
+  "nombre": "Pulsera de Diamantes",
+  "categoria": "Pulsera",
+  "materiales": [
+    "Oro Blanco 18k",
+    "Diamantes"
+  ],
+  "peso": "8g",
+  "precio": 450,
+  "disponibilidad": "Disponible",
+  "coleccion": "Lujosa",
+  "joyeroId": "joyero001"
+},
+{
+  "_id": "PJ-104",
+  "nombre": "Pendientes de Perlas",
+  "categoria": "Pendientes",
+  "materiales": [
+    "Plata 925",
+    "Perlas Naturales"
+  ],
+  "peso": "3g",
+  "precio": 80,
+  "disponibilidad": "Disponible",
+  "coleccion": "Clásica",
+  "joyeroId": "joyero002"
+},
+{
+  "_id": "PJ-105",
+  "nombre": "Broche de Plata",
+  "categoria": "Broche",
+  "materiales": [
+    "Plata 925"
+  ],
+  "peso": "7g",
+  "precio": 100,
+  "disponibilidad": "Agotado",
+  "coleccion": "Vintage",
+  "joyeroId": "joyero003"
+}]

@@ -1,0 +1,49 @@
+[{
+  "_id": "joyero001",
+  "nombre": "Carlos Mendoza",
+  "especialidad": "Diseño de anillos y pulseras",
+  "piezasCreadas": [
+    {
+      "piezaId": "PJ-101",
+      "nombrePieza": "Anillo de Oro"
+    },
+    {
+      "piezaId": "PJ-103",
+      "nombrePieza": "Pulsera de Diamantes"
+    }
+  ]
+},
+{
+  "_id": "joyero002",
+  "nombre": "Lucía Martínez",
+  "especialidad": "Collares y pendientes",
+  "piezasCreadas": [
+    {
+      "piezaId": "PJ-102",
+      "nombrePieza": "Collar de Plata"
+    },
+    {
+      "piezaId": "PJ-104",
+      "nombrePieza": "Pendientes de Perlas"
+    },
+    {
+      "piezaId": "PJ-106",
+      "nombrePieza": "Collar de Rubíes"
+    }
+  ]
+},
+{
+  "_id": "joyero003",
+  "nombre": "Jorge Ramírez",
+  "especialidad": "Broches y piezas personalizadas",
+  "piezasCreadas": [
+    {
+      "piezaId": "PJ-105",
+      "nombrePieza": "Broche de Plata"
+    },
+    {
+      "piezaId": "PJ-107",
+      "nombrePieza": "Broche de Oro"
+    }
+  ]
+}]

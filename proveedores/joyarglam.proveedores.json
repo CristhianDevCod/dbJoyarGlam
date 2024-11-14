@@ -1,0 +1,66 @@
+[{
+  "_id": "proveedor001",
+  "nombre": "Joyería Maya S.A.",
+  "contacto": "+57 320 1234567",
+  "materialesSuministrados": [
+    {
+      "fecha": "2024-10-01",
+      "material": "Oro",
+      "cantidad": "20g"
+    },
+    {
+      "fecha": "2024-10-15",
+      "material": "Diamantes",
+      "cantidad": "5 unidades"
+    },
+    {
+      "fecha": "2024-10-25",
+      "material": "Plata",
+      "cantidad": "30g"
+    }
+  ]
+},
+{
+  "_id": "proveedor002",
+  "nombre": "Minerales del Caribe",
+  "contacto": "+57 310 9876543",
+  "materialesSuministrados": [
+    {
+      "fecha": "2024-09-18",
+      "material": "Perlas",
+      "cantidad": "15 unidades"
+    },
+    {
+      "fecha": "2024-10-05",
+      "material": "Rubíes",
+      "cantidad": "3 unidades"
+    },
+    {
+      "fecha": "2024-10-28",
+      "material": "Esmeraldas",
+      "cantidad": "2 unidades"
+    }
+  ]
+},
+{
+  "_id": "proveedor003",
+  "nombre": "Gemas del Sur",
+  "contacto": "+57 301 2233445",
+  "materialesSuministrados": [
+    {
+      "fecha": "2024-10-02",
+      "material": "Platino",
+      "cantidad": "10g"
+    },
+    {
+      "fecha": "2024-10-20",
+      "material": "Zafiros",
+      "cantidad": "4 unidades"
+    },
+    {
+      "fecha": "2024-11-01",
+      "material": "Oro Blanco",
+      "cantidad": "15g"
+    }
+  ]
+}]

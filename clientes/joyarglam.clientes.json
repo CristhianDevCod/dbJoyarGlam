@@ -1,0 +1,132 @@
+[{
+  "_id": "cliente001",
+  "nombre": "María Gómez",
+  "contacto": "+57 300 1234567",
+  "email": "maria.gomez@example.com",
+  "historialDeCompras": [
+    {
+      "fecha": "2024-10-05",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Anillo de Oro",
+          "cantidad": 1,
+          "precio": 150
+        },
+        {
+          "nombrePieza": "Collar de Plata",
+          "cantidad": 1,
+          "precio": 150
+        }
+      ],
+      "total": 300
+    },
+    {
+      "fecha": "2024-10-15",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Pulsera de Diamantes",
+          "cantidad": 1,
+          "precio": 450
+        }
+      ],
+      "total": 450
+    }
+  ]
+},
+{
+  "_id": "cliente002",
+  "nombre": "Juan Pérez",
+  "contacto": "+57 300 7654321",
+  "email": "juan.perez@example.com",
+  "historialDeCompras": [
+    {
+      "fecha": "2024-09-20",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Reloj de Plata",
+          "cantidad": 1,
+          "precio": 350
+        }
+      ],
+      "total": 350
+    }
+  ]
+},
+{
+  "_id": "cliente003",
+  "nombre": "Ana Torres",
+  "contacto": "+57 311 9988776",
+  "email": "ana.torres@example.com",
+  "historialDeCompras": [
+    {
+      "fecha": "2024-10-10",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Collar de Perlas",
+          "cantidad": 1,
+          "precio": 200
+        },
+        {
+          "nombrePieza": "Pendientes de Plata",
+          "cantidad": 2,
+          "precio": 100
+        }
+      ],
+      "total": 400
+    }
+  ]
+},
+{
+  "_id": "cliente004",
+  "nombre": "Luis Fernández",
+  "contacto": "+57 321 1230987",
+  "email": "luis.fernandez@example.com",
+  "historialDeCompras": [
+    {
+      "fecha": "2024-11-01",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Broche de Oro",
+          "cantidad": 1,
+          "precio": 250
+        }
+      ],
+      "total": 250
+    },
+    {
+      "fecha": "2024-11-10",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Anillo de Diamantes",
+          "cantidad": 1,
+          "precio": 500
+        }
+      ],
+      "total": 500
+    }
+  ]
+},
+{
+  "_id": "cliente005",
+  "nombre": "Carmen Ruiz",
+  "contacto": "+57 322 5566778",
+  "email": "carmen.ruiz@example.com",
+  "historialDeCompras": [
+    {
+      "fecha": "2024-10-12",
+      "piezasCompradas": [
+        {
+          "nombrePieza": "Pulsera de Plata",
+          "cantidad": 1,
+          "precio": 120
+        },
+        {
+          "nombrePieza": "Collar de Rubíes",
+          "cantidad": 1,
+          "precio": 600
+        }
+      ],
+      "total": 720
+    }
+  ]
+}]
