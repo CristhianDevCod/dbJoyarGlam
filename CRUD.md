@@ -19,28 +19,28 @@ db.clientes.insertOne({
 ```
 
 ## 2. Leer (Read)
-- a. Leer todos los clientes:
+  - a. Leer todos los clientes:
 ```mongodb
 db.clientes.find();
 ```
-- b. Leer un cliente específico por su ID:
+  - b. Leer un cliente específico por su ID:
 ```mongodb
 db.clientes.findOne({ _id: "cliente002" });
 ```
-- c. Leer clientes que hayan realizado compras superiores a un monto específico:
+  - c. Leer clientes que hayan realizado compras superiores a un monto específico:
 ```
 db.clientes.find({ "historialDeCompras.total": { $gt: 200 } });
 ```
 
 ## 3. Actualizar (Update)
-- a. Actualizar el contacto de un cliente específico:
+  - a. Actualizar el contacto de un cliente específico:
 ```mongodb
 db.clientes.updateOne(
   { _id: "cliente003" },
   { $set: { contacto: "+57 300 1234567" } }
 );
 ```
-- b. Agregar una nueva compra al historial de un cliente:
+  - b. Agregar una nueva compra al historial de un cliente:
 ```mongodb
 db.clientes.updateOne(
   { _id: "cliente001" },
@@ -49,11 +49,11 @@ db.clientes.updateOne(
 ```
 
 4. Eliminar (Delete)
-- a. Eliminar un cliente por su ID:
+  - a. Eliminar un cliente por su ID:
 ```mongodb
 db.clientes.deleteOne({ _id: "cliente005" });
 ```
-- b. Eliminar todas las compras de un cliente en su historial de compras:
+  - b. Eliminar todas las compras de un cliente en su historial de compras:
 ```mongodb
 db.clientes.updateOne(
   { _id: "cliente003" },
