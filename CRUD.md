@@ -3,7 +3,7 @@ Este diseño permite una gestión integral de una joyería al almacenar los dato
 colecciones independientes y bien estructuradas. La separación en colecciones facilita el acceso a información detallada y permite generar informes 
 personalizados, esenciales para la administración de la joyería.
 
-## 1. Crear (Create)
+## **1. Crear (Create)**
 Para insertar un nuevo cliente en la colección:
 ```mongodb
 db.clientes.insertOne({
@@ -18,7 +18,7 @@ db.clientes.insertOne({
 });
 ```
 
-## 2. Leer (Read)
+## **2. Leer (Read)**
   - a. Leer todos los clientes:
 ```mongodb
 db.clientes.find();
@@ -32,7 +32,7 @@ db.clientes.findOne({ _id: "cliente002" });
 db.clientes.find({ "historialDeCompras.total": { $gt: 200 } });
 ```
 
-## 3. Actualizar (Update)
+## **3. Actualizar (Update)**
   - a. Actualizar el contacto de un cliente específico:
 ```mongodb
 db.clientes.updateOne(
@@ -48,7 +48,7 @@ db.clientes.updateOne(
 );
 ```
 
-4. Eliminar (Delete)
+## **4. Eliminar (Delete)**
   - a. Eliminar un cliente por su ID:
 ```mongodb
 db.clientes.deleteOne({ _id: "cliente005" });
