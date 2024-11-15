@@ -60,5 +60,5 @@ db.clientes.updateOne(
   { $set: { historialDeCompras: [] } }
 );
 ```
-
+### Resumen
 Este es el crud correspondiente a la actividad
